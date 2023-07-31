@@ -1,0 +1,134 @@
+body {
+    background-image: url(/Imagens/fundo.jpg);
+    background-attachment: scroll;
+    background-size: 100% auto;
+    margin: 0;
+}
+
+@font-face {
+    font-family: alex-brush; 
+    src:
+    url(/ProjetoConto/font/alex-brush/alex-brush) format("truetype");
+}
+
+header {
+    margin: 10px;
+}
+
+.menu {
+    margin: auto;
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    background-color: rgba(255, 0, 111, 0.6);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu :hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fd007e;
+}
+
+div {
+    margin: 80px auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: alex-brush;
+    font-size: 60px;
+    color: rgba(255, 0, 111, 0.8);
+    text-shadow: 2px 2px 2px white;
+
+}
+
+.corpo {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {    
+    display: flex;
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+img {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+}
+
+h2 {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #fd007e;
+}
+
+a {
+    text-decoration: none;
+}
+
+.merida {
+    background-color: #1F8198;
+}
+
+.vanellope {
+    background-color: #fd007e;
+}
+
+.tiana {
+    background-color: #ACBC5B;
+}
+
+.mirabel {
+    background-color: #3F3885;
+}
+
+p {
+    display: inline-block;
+    width: auto;
+    height: 255px;
+    margin: 18px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgba(255, 0, 111, 0.8);
+}

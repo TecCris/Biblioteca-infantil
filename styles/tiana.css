@@ -1,0 +1,33 @@
+
+.menu a{
+    background-color:  #ACBC5B;
+}
+.menu :hover{
+    background-color:rgba(255, 255, 255, 0.4);
+        color: #ACBC5B;
+    }     
+h1{
+    text-align: center;
+    color: #ACBC5B;
+}
+main{
+    width: 76%;
+    margin: auto;
+}
+p{
+    font-size: 25px;
+    height: auto;
+    width: auto;
+    padding: 16px;
+    margin: 0;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #ACBC5B;;
+}
